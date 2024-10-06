@@ -1,7 +1,8 @@
-x = 10
-y = 20
 
-if x>y:
-    print("x is greater than y")
+# Conditional Statement
+
+a = int(input("Enter a number:- "))
+if a%2==0:
+    print(a,"Even number")
 else:
-    print("y is greater than x")
+    print("Odd number")
