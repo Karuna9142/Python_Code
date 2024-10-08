@@ -1,8 +1,9 @@
-for n in range(5):
-    print("Welcome")
-print()
-for n in range(1,6):
-    print(n)
-print()
-for n in range(1,7,2): # 1 se start 6 is condition 2 - 2 increment
-    print(n)
+fruits = {"apple", "Banana","Orange"}
+for y in fruits:
+    print(y, end= " ")
+
+#while loop
+i = 1;
+while i<5:
+    print(i, end=" ");
+    i = i+1
