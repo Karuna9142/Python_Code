@@ -1,0 +1,14 @@
+[
+  {
+    "userid": 1,
+    "id": 1,
+    "title": "Learn Java",
+    "body": "Core java, advance java including oops"
+  },
+  {
+    "userid": 2,
+    "id": 2,
+    "title": "Learn Python",
+    "body": "Core Python, advance python including oops"
+  }
+]
