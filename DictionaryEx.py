@@ -1,13 +1,41 @@
-# unordered key value pair
-#mutable
+# dict = {
+#     'brand':'honda',
+#     'electric':'false',
+#     'year':'2002',
+#     'colors':['red','green','pink']
+# }
+#
+# print(dict)
+# print(type(dict))
+# print(len(dict))
+#
+# #get method
+# x = dict.get("brand")
+# print(x)
+#
+# #keys() method
+#  #y = dict.keys()
+# y = dict.values()
+# print(y)
+#
+# #add a new item
+# print(dict)
+#
+# dict['model'] = 'JH0123G'
+# print(dict)
 
-d = {'Name':'Karuna',"Gender":'Female', 'Age':22}
-print(d,type(d))
+thisdict = {
+    'brand':"ford",
+    "model":"Mustang",
+    "year":1964
+}
+if "model" in thisdict:
+    print("yes, It exists in the dictionary")
+else:
+    print("No, it does not exists.")
 
-print(d['Gender'])
+thisdict['year'] = 2018
+print(thisdict)
 
-
-#Set - Immutable, {},unique element
-
-s = {10,20,30,40,50,30}
-print(s,type(s))
+thisdict.update({"year":2022})
+print(thisdict)
